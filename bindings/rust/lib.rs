@@ -39,6 +39,10 @@ pub fn language_typescript() -> Language {
     unsafe { tree_sitter_typescript() }
 }
 
+pub fn language() -> Language {
+    unsafe { tree_sitter_typescript() }
+}
+
 /// Returns the tree-sitter [Language][] for TSX.
 ///
 /// [Language]: https://docs.rs/tree-sitter/*/tree_sitter/struct.Language.html
